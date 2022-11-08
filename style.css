@@ -1,0 +1,23 @@
+#Harga {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#Harga td, #Harga th{
+    border:1px solid #ddd;
+    padding: 8px;
+}
+
+#Harga th{
+    background-color: darkblue;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+#Harga tr:nth-child(odd){
+    background-color: #c0c0c0;
+}
+#Harga tr:hover{
+    background-color: #c0c;
+}
